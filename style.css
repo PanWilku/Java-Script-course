@@ -1,0 +1,98 @@
+.form1 {
+    font-size: 25px;
+    display: flex;
+    max-width: fit-content;
+}
+
+.form1 input {
+    font-size: 25px;
+}
+
+.form-group {
+    display: flex;
+    max-width: fit-content;
+    padding: 5px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-group-radio {
+    display: flex;
+    max-width: fit-content;
+    padding: 5px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    text-align: left;
+    padding-right: 5px;
+}
+
+.form-group #Password {
+    position: relative;
+    left: 5px;
+}
+
+.form-group #Email {
+    position: relative;
+    left: 40px;
+}
+
+.form-group input {
+    font-size: 25px;
+}
+
+#image1 {
+    height: 200px;
+}
+
+#myForm {
+    display: flex;
+    border: 10px solid hsl(9, 96%, 58%);
+    flex-direction: column;
+    padding: 10px;
+    border-right-width: 0px;
+    justify-content: center;
+}
+
+#img-property {
+    border: 10px solid hsl(9, 96%, 58%);
+    border-left-width: 0px;
+}
+
+.submit-reset {
+    position: relative;
+    left: 150px;
+}
+
+.StudentYear {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.StudentYear label{
+    border: 5px solid transparent;
+    box-sizing: border-box;
+}
+
+.StudentYear label:hover{
+    border: 5px solid pink;
+    background-color: hsl(350, 100%, 94%);
+    box-sizing: border-box;
+}
+
+
+.form-group input{
+    box-shadow: 0 0 0 5px transparent;
+    box-sizing: content-box;
+}
+
+.form-group input:hover{
+    box-shadow: 0 0 0 5px pink;
+    background-color: hsl(350, 100%, 94%);
+    box-sizing: border-box;
+}
